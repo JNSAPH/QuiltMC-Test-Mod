@@ -2,24 +2,24 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "${group}",
-		"id": "example_mod",
+		"id": "test_mod",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
+			"name": "aph's super cool mod to figure out how to use quilt",
 			"description": "A short description of your mod.",
 			"contributors": {
-				"Your name here": "Owner"
+				"JNSAPH": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://jnsaph.com/",
+				"issues": "https://github.com/JNSAPH/QuiltMC-Test-Mod/issues",
+				"sources": "https://github.com/JNSAPH/QuiltMC-Test-Mod"
 			},
 			"icon": "assets/example_mod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.jnsaph.test_mod.TestMod"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "test_mod.mixins.json"
 }
