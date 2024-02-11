@@ -1,3 +1,4 @@
 {
-  "item.test_mod.example_item": "Example Item"
+  "item.test_mod.example_item": "Example Item",
+  "itemGroup.test_mod.example_item_group": "Example Item Group"
 }
